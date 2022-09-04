@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mineflayer": "^4.4.0",
+    "mineflayer-antiafk": "^1.1.1"
+  }
+}
