@@ -12,6 +12,8 @@ function lookAtNearestPlayer () {
   const playerFilter = (entity) => entity.type === 'player'
   const playerEntity = bot.nearestEntity(playerFilter)
   
+  console.log("look")
+  
   if (!playerEntity) return
   
   const pos = playerEntity.position.offset(0, playerEntity.height, 0)
